@@ -41,18 +41,18 @@ from Class import method
 #         summ *= int(numbers)
 #     print(summ)
  
-# # Плюс
-# print(12 + 2)  #14
-# # Минус
-# print(5 - 2)  #3
-# # Умножение
-# print(4 * 2)  #8
-# # Деление 
-# print(5 / 2)  #2.5
-# # Деление с остатком
-# print(5 // 2)  #2
-# # Округление 
-# print(round(7 / 3, 3))  #2.333
+# Плюс
+print(12 + 2)  #14
+# Минус
+print(5 - 2)  #3
+# Умножение
+print(4 * 2)  #8
+# Деление 
+print(5 / 2)  #2.5
+# Деление с остатком
+print(5 // 2)  #2
+# Округление 
+print(round(7 / 3, 3))  #2.333
 
 def sum(numbers):
     result=0
