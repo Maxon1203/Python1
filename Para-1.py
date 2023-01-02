@@ -10,7 +10,7 @@ from Class import method
 
 
 # number = input("Кол-во чисел: ") 
-# znak = input("Кол-во чисел: ")
+# znak = input("Введите знак: ")
 # if (znak == "+"):
 #     i=1
 #     summ = 0
@@ -42,38 +42,52 @@ from Class import method
 #     print(summ)
  
 # Плюс
-print(12 + 2)  #14
-# Минус
-print(5 - 2)  #3
-# Умножение
-print(4 * 2)  #8
-# Деление 
-print(5 / 2)  #2.5
-# Деление с остатком
-print(5 // 2)  #2
-# Округление 
-print(round(7 / 3, 3))  #2.333
-
-def sum(numbers):
-    result=0
-    for n in numbers:
-        result += n
-    print(f"sum = {result}") 
-
-
-number = input("Кол-во чисел: ") 
-i=1
-qwe = []
-while i <= int(number):
-    i +=1
-    numbers = input("число")
-    qwe.append(int(numbers))
-method.sum(qwe)
+# print(12 + 2)  #14
+# # Минус
+# print(5 - 2)  #3
+# # Умножение
+# print(4 * 2)  #8
+# # Деление 
+# print(5 / 2)  #2.5
+# # Деление с остатком
+# print(5 // 2)  #2
+# # Округление 
+# print(round(7 / 3, 3))  #2.333
 
 # def sum(numbers):
 #     result=0
 #     for n in numbers:
 #         result += n
 #     print(f"sum = {result}") 
+
+# number = input("Кол-во чисел: ") 
+# i=1
+# qwe = []
+# while i <= int(number):
+#     i +=1
+#     numbers = input("число")
+#     qwe.append(int(numbers))
+# sum(qwe)
+
+# def testParam(name, age = 222, /, *, company):
+#     print(f"Name: {name}  Age: {age}  Company: {company}")
+ 
+ 
+# testParam("Victor", 16, company ="Google")               
+# testParam("Alex", 37, company ="MPT")        
+# testParam("Bin",company ="REY",)
+
+# def Summ(*numbers):
+#     print(numbers)
+listOne = [1, 41, 33]
+for i in listOne:
+    print(i)
+# Summ(23,42,25,2,1,5,14,1)
+# def sum(numbers):
+#     result=0
+#     for n in numbers:
+#         result += n
+#     print(f"sum = {result}") 
+
 
 
