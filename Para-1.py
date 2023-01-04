@@ -1,4 +1,10 @@
 from Class import method
+from Class import classTest
+
+Max = classTest.Employee("Max","P50-3-252")    # Чао
+print(Max.say_hello())              # Привет Max из группы P50-3-252 возраст 22
+
+
 # Ввод данных
 # name = input("Введите ваше имя:")
 # age = input("Введите ваш возраст:")
@@ -79,9 +85,28 @@ from Class import method
 
 # def Summ(*numbers):
 #     print(numbers)
-listOne = [1, 41, 33]
-for i in listOne:
-    print(i)
+
+# users = {
+#     "Tom": {
+#         "phone": "+971478745",
+#         "email": "tom12@gmail.com"
+#     },
+#     "Bob": {
+#         "phone": "+876390444",
+#         "email": "bob@gmail.com",
+#         "skype": "bob123"
+#     }
+# }
+
+Max = classTest.Employee("Max","P50-3-252")    # Чао
+print(Max.say_hello())              # Привет Max из группы P50-3-252 возраст 22
+# # print(users.keys())
+# for key in users.keys():
+#     if key == "Tom":
+#         print(users["Tom"]["email"])
+# else:
+#     print("skype is not found")
+
 # Summ(23,42,25,2,1,5,14,1)
 # def sum(numbers):
 #     result=0
