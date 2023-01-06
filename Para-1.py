@@ -1,10 +1,6 @@
 from Class import method
 from Class import classTest
 
-Max = classTest.Employee("Max","P50-3-252")    # Чао
-print(Max.say_hello())              # Привет Max из группы P50-3-252 возраст 22
-
-
 # Ввод данных
 # name = input("Введите ваше имя:")
 # age = input("Введите ваш возраст:")
@@ -98,8 +94,8 @@ print(Max.say_hello())              # Привет Max из группы P50-3-2
 #     }
 # }
 
-Max = classTest.Employee("Max","P50-3-252")    # Чао
-print(Max.say_hello())              # Привет Max из группы P50-3-252 возраст 22
+# Max = classTest.Employee("Max","P50-3-252")    # Чао
+# print(Max.say_hello())              # Привет Max из группы P50-3-252 возраст 22
 # # print(users.keys())
 # for key in users.keys():
 #     if key == "Tom":
@@ -113,6 +109,26 @@ print(Max.say_hello())              # Привет Max из группы P50-3-2
 #     for n in numbers:
 #         result += n
 #     print(f"sum = {result}") 
+# try:
+#     number1 = int(input("Введите первое число: "))
+#     number2 = int(input("Введите второе число: "))
+#     if number2 <= 5:
+#         raise Exception("Второе число не должно быть меньше или равно 5")
+#     print("Результат деления двух чисел:", number1/number2)
+# except ValueError:
+#     print("Введены некорректные данные")
+# except Exception as e:
+#     print(e)
+# finally:
+#     print("Завершение программы")
+# try:
+#     TestExc = classTest.Person("Victor", 11)
+#     TestExc.info()  # Имя: Victor  Возраст: 11
+ 
+#     TestExc2 = classTest.Person("Alex", -3)  # генерируется исключение типа PersonAgeException
+#     TestExc2.info()
+# except classTest.PersonAgeException as e:
+#     print(e) 
 
-
-
+number = input()
+print(eval(number))
