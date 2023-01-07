@@ -129,6 +129,3 @@ from Class import classTest
 #     TestExc2.info()
 # except classTest.PersonAgeException as e:
 #     print(e) 
-
-number = input()
-print(eval(number))
